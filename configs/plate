@@ -1,0 +1,15 @@
+space_dim=3
+n_train=1200
+n_valid=100
+n_test=100
+time_len=400
+noise_level="0.003 0.003 0.003"
+consist_mesh=0
+multi_mesh_layer=6
+MP_time=1
+num_epochs=50
+batch=12
+lr=0.0001
+gamma=0.79432823472
+data_dir='./data/plate'
+dump_dir='./res/plate'

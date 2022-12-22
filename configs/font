@@ -1,0 +1,15 @@
+space_dim=3
+n_train=1000
+n_valid=200
+n_test=200
+time_len=100
+noise_level="0.005 0.005 0.000333"
+consist_mesh=0
+multi_mesh_layer=6
+MP_time=1
+num_epochs=50
+batch=3
+lr=0.0001
+gamma=0.79432823472
+data_dir='./data/font'
+dump_dir='./res/font'
