@@ -41,13 +41,13 @@ This process ensures that the connectivity is preserved at any depth of coarser 
 ### Pipeline
 
 <div  style="display:flex; flex-direction:row;">
-    <div style="width:75%;">
+    <div style="height:213px;">
     <figure>
         <img src="./figs/pipeline.png" alt="Image 1">
         <figcaption>Pipeline</figcaption>
     </figure>
     </div>
-    <div style="width:35%;">
+    <div style="height:213px;">
     <figure>
         <img src="./figs/trans.png" alt="Image 1">
         <figcaption>Transition module</figcaption>
