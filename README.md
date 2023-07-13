@@ -23,7 +23,7 @@ We aimed to find a solution that would be consistent across any input graphs, wi
 
 <div  style="display:flex; flex-direction:row;">
     <figure>
-        <img src="./figs/bi-stride.png" height="213"/>
+        <img src="./figs/bi-stride.png" height="192"/>
     </figure>
 </div>
 
