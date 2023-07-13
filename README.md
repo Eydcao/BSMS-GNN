@@ -6,19 +6,19 @@ This repository contains the code implementations for [Efficient Learning of Mes
 <div  style="display:flex; flex-direction:row;">
     <div>
     <figure>
-        <img src="./figs/learnable.png" alt="Image 1" height="213">
+        <img src="./figs/learnable.png" alt="Image 1" height="213"/>
         <figcaption>GraphUNet (Gao et al., 2019)</figcaption>
     </figure>
     </div>
     <div>
     <figure>
-        <img src="./figs/grid.png" alt="Image 1" height="213">
+        <img src="./figs/grid.png" alt="Image 1" height="213"/>
         <figcaption>MS-GNN-Grid (Lino et al., 2021)</figcaption>
     </figure>
     </div>
     <div>
     <figure>
-        <img src="./figs/manual.png" alt="Image 1" height="213">
+        <img src="./figs/manual.png" alt="Image 1" height="213"/>
         <figcaption>MultiScale MeshGraphNets (Fortunato et al., 2022)</figcaption>
     </figure>
     </div>
@@ -39,7 +39,7 @@ We aimed to find a solution that would be consistent across any input graphs, wi
 <div  style="display:flex; flex-direction:row;">
     <div>
     <figure>
-        <img src="./figs/bi-stride.png" alt="Image 1" height="213">
+        <img src="./figs/bi-stride.png" alt="Image 1" height="213"/>
         <figcaption>Left: DAG after topological sorting; Right: BFS and marked geodesic distance.</figcaption>
     </figure>
     </div>
@@ -58,13 +58,13 @@ This process ensures that the connectivity is preserved at any depth of coarser 
 <div  style="display:flex; flex-direction:row;">
     <div>
     <figure>
-        <img src="./figs/pipeline.png" alt="Image 1" height="213">
+        <img src="./figs/pipeline.png" alt="Image 1" height="213"/>
         <figcaption>Pipeline</figcaption>
     </figure>
     </div>
     <div>
     <figure>
-        <img src="./figs/trans.png" alt="Image 1" height="213">
+        <img src="./figs/trans.png" alt="Image 1" height="213"/>
         <figcaption>Transition module</figcaption>
     </figure>
     </div>
@@ -79,7 +79,7 @@ Our dataset includes the following: 1) cylinder flow, 2) compressible flow aroun
 <div  style="display:flex; flex-direction:row;">
     <div>
     <figure>
-        <img src="./figs/examples.png" alt="Image 1" height="213">
+        <img src="./figs/examples.png" alt="Image 1" height="213"/>
     </figure>
     </div>
 </div>
@@ -88,7 +88,7 @@ The method performs well on all datasets, demonstrating significant improvements
 <div  style="display:flex; flex-direction:row;">
     <div>
     <figure>
-        <img src="./figs/perform.png" alt="Image 1" height="150">
+        <img src="./figs/perform.png" alt="Image 1" height="150"/>
     </figure>
     </div>
 </div>
@@ -97,7 +97,7 @@ The absence of cross-boundary edges helps avoid artificial blurring effects.
 <div  style="display:flex; flex-direction:row;">
     <div style>
     <figure>
-        <img src="./figs/blur_inter.png" alt="Image 1" height="125">
+        <img src="./figs/blur_inter.png" alt="Image 1" height="125"/>
     </figure>
     </div>
 </div>
@@ -106,7 +106,7 @@ Bi-stride pooling consistently works on unseen geometry, leading to higher accur
 <div  style="display:flex; flex-direction:row;">
     <div style>
     <figure>
-        <img src="./figs/compare_to_learnable.png" alt="Image 1" height="150">
+        <img src="./figs/compare_to_learnable.png" alt="Image 1" height="150"/>
     </figure>
     </div>
 </div>
@@ -115,7 +115,7 @@ Overall, we achieve the lowest inference error compared to previous methods in t
 <div  style="display:flex; flex-direction:row;">
     <div style>
     <figure>
-        <img src="./figs/IDP_error_compare.png" alt="Image 1" height="150">
+        <img src="./figs/IDP_error_compare.png" alt="Image 1" height="150"/>
     </figure>
     </div>
 </div>
