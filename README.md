@@ -4,19 +4,19 @@ This repository contains the code implementations for [Efficient Learning of Mes
 
 ## Motivations
 <div  style="display:flex; flex-direction:row;">
-    <div style="width:38%;">
+    <div>
     <figure>
         <img src="./figs/learnable.png" alt="Image 1">
         <figcaption>GraphUNet (Gao et al., 2019)</figcaption>
     </figure>
     </div>
-    <div style="width:25%;">
+    <div style>
     <figure>
         <img src="./figs/grid.png" alt="Image 1">
         <figcaption>MS-GNN-Grid (Lino et al., 2021)</figcaption>
     </figure>
     </div>
-    <div style="width:26%;">
+    <div style=>
     <figure>
         <img src="./figs/manual.png" alt="Image 1">
         <figcaption>MultiScale MeshGraphNets (Fortunato et al., 2022)</figcaption>
