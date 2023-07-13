@@ -3,26 +3,11 @@
 This repository contains the code implementations for [Efficient Learning of Mesh-Based Physical Simulation with BSMS-GNN (ICML 2023)](https://openreview.net/forum?id=2Mbo7IEtZW). The paper is also available on [Arxiv](https://arxiv.org/abs/2210.02573).
 
 ## Motivations
-<div  style="display:flex; flex-direction:row;">
-    <div>
-    <figure>
-        <img src="./figs/learnable.png" alt="Image 1 style=height:10px;">
-        <figcaption>GraphUNet (Gao et al., 2019)</figcaption>
-    </figure>
-    </div>
-    <div style>
-    <figure>
-        <img src="./figs/grid.png" alt="Image 1 style=height:10px;">
-        <figcaption>MS-GNN-Grid (Lino et al., 2021)</figcaption>
-    </figure>
-    </div>
-    <div style=>
-    <figure>
-        <img src="./figs/manual.png" alt="Image 1 style=height:10px;">
-        <figcaption>MultiScale MeshGraphNets (Fortunato et al., 2022)</figcaption>
-    </figure>
-    </div>
-</div>
+<p float="left">
+  <img src="./figs/learnable.png" height="213" />
+  <img src="./figs/grid.png" height="213" /> 
+  <img src="./figs/manual.png" height="213" />
+</p>
 
 We focus on developing a multi-scale graph neural network for physics-based simulation. Previous works have certain limitations when it comes to building multi-scale connectivity.
 
