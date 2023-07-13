@@ -3,11 +3,26 @@
 This repository contains the code implementations for [Efficient Learning of Mesh-Based Physical Simulation with BSMS-GNN (ICML 2023)](https://openreview.net/forum?id=2Mbo7IEtZW). The paper is also available on [Arxiv](https://arxiv.org/abs/2210.02573).
 
 ## Motivations
-<p float="left">
-  <img src="./figs/learnable.png" height="213" />
-  <img src="./figs/grid.png" height="213" /> 
-  <img src="./figs/manual.png" height="213" />
-</p>
+<div  style="display:flex; flex-direction:row;">
+    <div>
+    <figure>
+        <img src="./figs/learnable.png" alt="Image 1" height="213">
+        <figcaption>GraphUNet (Gao et al., 2019)</figcaption>
+    </figure>
+    </div>
+    <div>
+    <figure>
+        <img src="./figs/grid.png" alt="Image 1" height="213">
+        <figcaption>MS-GNN-Grid (Lino et al., 2021)</figcaption>
+    </figure>
+    </div>
+    <div>
+    <figure>
+        <img src="./figs/manual.png" alt="Image 1" height="213">
+        <figcaption>MultiScale MeshGraphNets (Fortunato et al., 2022)</figcaption>
+    </figure>
+    </div>
+</div>
 
 We focus on developing a multi-scale graph neural network for physics-based simulation. Previous works have certain limitations when it comes to building multi-scale connectivity.
 
@@ -22,9 +37,9 @@ We aimed to find a solution that would be consistent across any input graphs, wi
 ### Bi-stride pooling
 
 <div  style="display:flex; flex-direction:row;">
-    <div style="width:60%;">
+    <div>
     <figure>
-        <img src="./figs/bi-stride.png" alt="Image 1">
+        <img src="./figs/bi-stride.png" alt="Image 1" height="213">
         <figcaption>Left: DAG after topological sorting; Right: BFS and marked geodesic distance.</figcaption>
     </figure>
     </div>
@@ -41,15 +56,15 @@ This process ensures that the connectivity is preserved at any depth of coarser 
 ### Pipeline
 
 <div  style="display:flex; flex-direction:row;">
-    <div style="height:213px;">
+    <div>
     <figure>
-        <img src="./figs/pipeline.png" alt="Image 1">
+        <img src="./figs/pipeline.png" alt="Image 1" height="213">
         <figcaption>Pipeline</figcaption>
     </figure>
     </div>
-    <div style="height:213px;">
+    <div>
     <figure>
-        <img src="./figs/trans.png" alt="Image 1">
+        <img src="./figs/trans.png" alt="Image 1" height="213">
         <figcaption>Transition module</figcaption>
     </figure>
     </div>
@@ -62,45 +77,45 @@ This process ensures that the connectivity is preserved at any depth of coarser 
 ## Results
 Our dataset includes the following: 1) cylinder flow, 2) compressible flow around an airfoil, 3) elastic plate, and 4) inflating elastic surface. The multi-scale structure of these datasets, achieved through bi-stride pooling, is shown below:
 <div  style="display:flex; flex-direction:row;">
-    <div style="width:90%;">
+    <div>
     <figure>
-        <img src="./figs/examples.png" alt="Image 1">
+        <img src="./figs/examples.png" alt="Image 1" height="213">
     </figure>
     </div>
 </div>
 
 The method performs well on all datasets, demonstrating significant improvements in training and inference time as well as RAM consumption.
 <div  style="display:flex; flex-direction:row;">
-    <div style="width:90%;">
+    <div>
     <figure>
-        <img src="./figs/perform.png" alt="Image 1">
+        <img src="./figs/perform.png" alt="Image 1" height="150">
     </figure>
     </div>
 </div>
 
 The absence of cross-boundary edges helps avoid artificial blurring effects.
 <div  style="display:flex; flex-direction:row;">
-    <div style="width:95%;">
+    <div style>
     <figure>
-        <img src="./figs/blur_inter.png" alt="Image 1">
+        <img src="./figs/blur_inter.png" alt="Image 1" height="125">
     </figure>
     </div>
 </div>
 
 Bi-stride pooling consistently works on unseen geometry, leading to higher accuracy.
 <div  style="display:flex; flex-direction:row;">
-    <div style="width:60%;">
+    <div style>
     <figure>
-        <img src="./figs/compare_to_learnable.png" alt="Image 1">
+        <img src="./figs/compare_to_learnable.png" alt="Image 1" height="150">
     </figure>
     </div>
 </div>
 
 Overall, we achieve the lowest inference error compared to previous methods in the most contact-rich test case.
 <div  style="display:flex; flex-direction:row;">
-    <div style="width:60%;">
+    <div style>
     <figure>
-        <img src="./figs/IDP_error_compare.png" alt="Image 1">
+        <img src="./figs/IDP_error_compare.png" alt="Image 1" height="150">
     </figure>
     </div>
 </div>
