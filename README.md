@@ -1,3 +1,8 @@
+# Updates July 2024
+After graduation, the original host (UCLA's google drive) for the dataset is unavailable.
+
+I am updating the repo and include scripts to generate dataset on your own.
+
 # Bi-stride Multi-Scale GNN
 
 This repository contains the code implementations for [Efficient Learning of Mesh-Based Physical Simulation with BSMS-GNN (ICML 2023)](https://openreview.net/forum?id=2Mbo7IEtZW). The paper is also available on [Arxiv](https://arxiv.org/abs/2210.02573).
