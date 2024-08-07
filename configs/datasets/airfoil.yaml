@@ -1,0 +1,11 @@
+tf_dataset_name: "airfoil"
+tf_dataset_dir: /data/
+root: '/data/converted/'
+field_names: ["node_type", "cells", "mesh_pos", "density", "velocity"]
+output_field_names: ["velocity", "density"]
+mesh_type: "tri"
+unet_depth: 7
+consist_mesh: true
+space_dim: 2
+noise_level: [10, 10, 0.01]
+noise_gamma: 1.0

@@ -1,0 +1,11 @@
+tf_dataset_name: "cylinder_flow"
+tf_dataset_dir: /data/
+root: '/data/converted/'
+field_names: ["node_type", "cells", "mesh_pos", "velocity"]
+output_field_names: ["velocity"]
+mesh_type: "tri"
+unet_depth: 5
+consist_mesh: false
+space_dim: 2
+noise_level: [0.02, 0.02]
+noise_gamma: 1.0

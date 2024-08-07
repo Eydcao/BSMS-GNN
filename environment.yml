@@ -1,0 +1,8 @@
+name: bsms-gnn
+channels:
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.11.*
+  - pip
+  - poetry=1.*

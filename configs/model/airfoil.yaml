@@ -1,0 +1,7 @@
+consistent_mesh: true
+latent_dim: 128
+hidden_layer: 3
+unet_depth: 7
+out_dim: 3
+pos_dim: 2
+accumulation_steps: 300

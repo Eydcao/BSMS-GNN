@@ -104,7 +104,6 @@ modeldir*
 *hdf
 results/
 results*/
-models/
 inference/
 # data/
 checkpoints/
@@ -134,3 +133,8 @@ ckpts/*
 temp_view/*
 src/runs/*
 *events*
+
+**/outputs/*
+**/*.pt
+**/*.pth
+**/wandb/*

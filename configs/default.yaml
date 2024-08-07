@@ -1,0 +1,31 @@
+defaults:
+  - datasets: airfoil
+  - model: airfoil
+  - opt: default
+  - _self_
+  - override hydra/hydra_logging: none
+  - override hydra/job_logging: none
+
+# Static flags
+board: False
+plot: True
+dump_dir: "/data/bsms-res"
+project: "train"
+base_seed: 42
+dataset_workers: 8
+batch: 48
+restore_dir: "/data/bsms-res"
+restore_step: 1000000
+epochs: 20
+steps_per_epoch: 10000
+loss_freq: 1000
+save_freq: 10000
+plot_freq: 10000
+time_freq: 1000
+time_warm: 100
+
+# only to disable hydra's logging, ignore below
+hydra:  
+  output_subdir: null
+  run:  
+    dir: .

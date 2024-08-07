@@ -1,0 +1,7 @@
+peak_lr: 1e-4
+end_lr: 1e-7
+warmup_steps:  20000
+decay_steps:  200000
+gnorm_clip: 1.0
+weight_decay: 1e-4
+gradient_accumulation_steps: 1
