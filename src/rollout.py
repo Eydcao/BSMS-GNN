@@ -44,7 +44,7 @@ def run_rollout(cfg):
     trainer = Trainer(model, cfg.model, cfg.opt)
 
     # Data loaders creation
-    test_datapipe = DATSET_HANDLER[dataset_name](cfg.datasets, cfg.dataset_workers, cfg.base_seed, "rollout")
+    test_datapipe = DATSET_HANDLER[dataset_name](cfg.datasets, 0, cfg.base_seed, "rollout")
     test_loader = DataLoader(test_datapipe, batch_size=1, num_workers=0, pin_memory=True)
 
     # Printing meta info of the training
